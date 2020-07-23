@@ -42,7 +42,6 @@ deploy:
     name: github-release
     github_release_artifact: $(executable_name)
     on:
-#      PYTHON_VERSION: 3.8
       CONFIGURATION: release
       APPVEYOR_REPO_TAG: true
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
